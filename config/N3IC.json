@@ -1,0 +1,35 @@
+{
+    "target": "N3IC",
+    "max_num_fp": -1,
+    "max_num_tp": -1,
+
+    "eps": 1e-6,
+    "min_point": 50,
+    "rad": 5,
+    "feature_dist": 20,
+    "water_line": 0.5,
+
+    "data": [
+        "synsdos",
+        "udpsdos"
+    ],
+    "disable": [
+        "charrdos",
+        "cldaprdos",
+        "dnsrdos",
+        "dnsscan",
+        "httpscan",
+        "httpsscan",
+        "icmpscan",
+        "icmpsdos",
+        "memcachedrdos",
+        "ntprdos",
+        "ntpscan",
+        "riprdos",
+        "rstsdos",
+        "sqlscan",
+        "ssdprdos",
+        "synsdos",
+        "sshscan"
+    ]
+}
