@@ -9,8 +9,12 @@ if [ $BASE_NAME != "pVoxel" ] && [ $BASE_NAME != "pvoxel" ]; then
     exit -1
 fi
 
-./env.sh
-./build.sh
+wget https://pvoxel-release.s3.cn-north-1.amazonaws.com.cn/data.zip
+unzip data.zip
+rm $_
+
+chmod +x ./env.sh && $_ 
+chmod +x ./build.sh && $_
 
 cd build
 
@@ -19,4 +23,5 @@ cd build
 
 cd ..
 
+echo "Please find the results in ./log."
 echo "Done."

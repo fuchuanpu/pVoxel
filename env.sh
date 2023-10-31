@@ -10,7 +10,7 @@ if [ $BASE_NAME != "pVoxel" ] && [ $BASE_NAME != "pvoxel" ]; then
 fi
 
 sudo apt-get update -y
-sudo apt-get install build-essential cmake ninja-build -y
+sudo apt-get install build-essential cmake ninja-build unzip -y
 
 sudo apt install libgflags-dev -y
 sudo apt install libboost-all-dev -y
