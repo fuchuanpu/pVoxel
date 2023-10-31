@@ -72,10 +72,10 @@ static inline auto get_time_spec(double dtime) -> timespec {
     #define KWHT  "\x1B[37;1m"
 #endif
 
-// #define HIGH_LIGHT_ERROR KCYN
-// #define HIGH_LIGHT_LOG KGRN
-// #define HIGH_LIGHT_WARN KRED
-// #define HIGH_LIGHT_TIME KMAG
+#define HIGH_LIGHT_ERROR KCYN
+#define HIGH_LIGHT_LOG KGRN
+#define HIGH_LIGHT_WARN KRED
+#define HIGH_LIGHT_TIME KMAG
 
 #define SYM_DEBUG
 #define FUNCTION_TIME

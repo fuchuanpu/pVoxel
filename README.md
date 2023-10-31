@@ -41,5 +41,5 @@ chmod +x start.sh && ./start.sh
 }
 ```
 
-## __0x02__ Maintainer
+## __0x03__ Maintainer
 [Chuanpu Fu](fcp20@tsinghua.edu.cn)
