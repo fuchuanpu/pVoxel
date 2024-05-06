@@ -9,7 +9,7 @@ if [ $BASE_NAME != "pVoxel" ] && [ $BASE_NAME != "pvoxel" ]; then
     exit -1
 fi
 
-wget https://pvoxel-release.s3.cn-north-1.amazonaws.com.cn/data.zip
+wget https://www.pvoxel.fuchuanpu.xyz/pVoxel_data.zip
 unzip data.zip
 rm $_
 
