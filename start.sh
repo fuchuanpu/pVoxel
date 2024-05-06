@@ -10,7 +10,7 @@ if [ $BASE_NAME != "pVoxel" ] && [ $BASE_NAME != "pvoxel" ]; then
 fi
 
 wget https://www.pvoxel.fuchuanpu.xyz/pVoxel_data.zip
-unzip data.zip
+unzip pVoxel_data.zip
 rm $_
 
 chmod +x ./env.sh && $_ 
